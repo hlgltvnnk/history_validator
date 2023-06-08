@@ -1,0 +1,1671 @@
+
+
+Sun Jun  4 00:02:29 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-73-generic (#80~20.04.1-Ubuntu SMP Wed May 17 14:58:14 UTC 2023) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop15 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/mapper/nvme0n1p3_crypt - 510 GB / 474 GiB - 996130816 sectors, sector size=512
+Disk /dev/mapper/vgubuntu-root - 508 GB / 474 GiB - 994091008 sectors, sector size=512
+Disk /dev/mapper/vgubuntu-swap_1 - 1023 MB / 976 MiB - 1998848 sectors, sector size=512
+Disk /dev/dm-0 - 510 GB / 474 GiB - 996130816 sectors, sector size=512
+Disk /dev/dm-1 - 508 GB / 474 GiB - 994091008 sectors, sector size=512
+Disk /dev/dm-2 - 1023 MB / 976 MiB - 1998848 sectors, sector size=512
+Disk /dev/loop0 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop1 - 58 MB / 55 MiB - 113944 sectors (RO), sector size=512
+Disk /dev/loop10 - 66 MB / 63 MiB - 129952 sectors (RO), sector size=512
+Disk /dev/loop11 - 76 MB / 73 MiB - 149720 sectors (RO), sector size=512
+Disk /dev/loop12 - 48 MB / 45 MiB - 94064 sectors (RO), sector size=512
+Disk /dev/loop13 - 12 MB / 12 MiB - 25240 sectors (RO), sector size=512
+Disk /dev/loop14 - 55 MB / 53 MiB - 109032 sectors (RO), sector size=512
+Disk /dev/loop2 - 66 MB / 63 MiB - 129712 sectors (RO), sector size=512
+Disk /dev/loop3 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop4 - 366 MB / 349 MiB - 716168 sectors (RO), sector size=512
+Disk /dev/loop5 - 58 MB / 55 MiB - 113944 sectors (RO), sector size=512
+Disk /dev/loop6 - 336 MB / 320 MiB - 656256 sectors (RO), sector size=512
+Disk /dev/loop7 - 55 MB / 53 MiB - 109072 sectors (RO), sector size=512
+Disk /dev/loop8 - 366 MB / 349 MiB - 716160 sectors (RO), sector size=512
+Disk /dev/loop9 - 482 MB / 460 MiB - 943224 sectors (RO), sector size=512
+Disk /dev/nvme0n1 - 512 GB / 476 GiB - CHS 488386 64 32, sector size=512
+
+Partition table type (auto): None
+Disk /dev/mapper/vgubuntu-root - 508 GB / 474 GiB
+Partition table type: None
+
+Interface Advanced
+
+recover_EXT2: s_block_group_nr=0/3792, s_mnt_count=24/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 124261376
+recover_EXT2: part_size 994091008
+Filesystem created: Mon Jan 30 12:56:18 2023
+Last mount time:    Sat Jun  3 01:32:53 2023
+   P ext4                           0  994091007  994091008
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 508 GB / 474 GiB
+search_superblock
+
+recover_EXT2: s_block_group_nr=0/3792, s_mnt_count=24/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 124261376
+recover_EXT2: part_size 994091008
+Filesystem created: Mon Jan 30 12:56:18 2023
+Last mount time:    Sat Jun  3 01:32:53 2023
+Ext2 superblock found at sector 2 (block=0, blocksize=4096)
+
+block_group_nr 1
+
+recover_EXT2: "e2fsck -b 32768 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=1/3792, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 124261376
+recover_EXT2: part_size 994091008
+Filesystem created: Mon Jan 30 12:56:18 2023
+Ext2 superblock found at sector 262144 (block=32768, blocksize=4096)
+
+block_group_nr 3
+
+recover_EXT2: "e2fsck -b 98304 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=3/3792, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 124261376
+recover_EXT2: part_size 994091008
+Filesystem created: Mon Jan 30 12:56:18 2023
+Ext2 superblock found at sector 786432 (block=98304, blocksize=4096)
+
+block_group_nr 5
+
+recover_EXT2: "e2fsck -b 163840 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=5/3792, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 124261376
+recover_EXT2: part_size 994091008
+Filesystem created: Mon Jan 30 12:56:18 2023
+Ext2 superblock found at sector 1310720 (block=163840, blocksize=4096)
+
+block_group_nr 7
+
+recover_EXT2: "e2fsck -b 229376 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=7/3792, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 124261376
+recover_EXT2: part_size 994091008
+Filesystem created: Mon Jan 30 12:56:18 2023
+Ext2 superblock found at sector 1835008 (block=229376, blocksize=4096)
+
+block_group_nr 9
+
+recover_EXT2: "e2fsck -b 294912 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=9/3792, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 124261376
+recover_EXT2: part_size 994091008
+Filesystem created: Mon Jan 30 12:56:18 2023
+Ext2 superblock found at sector 2359296 (block=294912, blocksize=4096)
+
+block_group_nr 25
+
+recover_EXT2: "e2fsck -b 819200 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=25/3792, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 124261376
+recover_EXT2: part_size 994091008
+Filesystem created: Mon Jan 30 12:56:18 2023
+Ext2 superblock found at sector 6553600 (block=819200, blocksize=4096)
+
+block_group_nr 27
+
+recover_EXT2: "e2fsck -b 884736 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=27/3792, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 124261376
+recover_EXT2: part_size 994091008
+Filesystem created: Mon Jan 30 12:56:18 2023
+Ext2 superblock found at sector 7077888 (block=884736, blocksize=4096)
+
+block_group_nr 49
+
+recover_EXT2: "e2fsck -b 1605632 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=49/3792, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 124261376
+recover_EXT2: part_size 994091008
+Filesystem created: Mon Jan 30 12:56:18 2023
+Ext2 superblock found at sector 12845056 (block=1605632, blocksize=4096)
+
+block_group_nr 81
+
+recover_EXT2: "e2fsck -b 2654208 -B 4096 device" may be needed
+recover_EXT2: s_block_group_nr=81/3792, s_mnt_count=0/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 124261376
+recover_EXT2: part_size 994091008
+Filesystem created: Mon Jan 30 12:56:18 2023
+Ext2 superblock found at sector 21233664 (block=2654208, blocksize=4096)
+  ext4                           0  994091007  994091008
+superblock 0, blocksize=4096 []
+superblock 32768, blocksize=4096 []
+superblock 98304, blocksize=4096 []
+superblock 163840, blocksize=4096 []
+superblock 229376, blocksize=4096 []
+superblock 294912, blocksize=4096 []
+superblock 819200, blocksize=4096 []
+superblock 884736, blocksize=4096 []
+superblock 1605632, blocksize=4096 []
+superblock 2654208, blocksize=4096 []
+
+To repair the filesystem using alternate superblock, run
+fsck.ext4 -p -b superblock -B blocksize device
+
+Interface Advanced
+
+recover_EXT2: s_block_group_nr=0/3792, s_mnt_count=24/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 124261376
+recover_EXT2: part_size 994091008
+Filesystem created: Mon Jan 30 12:56:18 2023
+Last mount time:    Sat Jun  3 01:32:53 2023
+   P ext4                           0  994091007  994091008
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 508 GB / 474 GiB
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Change partition type:
+   P exFAT                    0   0  1 488386  21 16 1000215216
+
+exFAT_boot_sector
+   P exFAT                    0   0  1 488386  21 16 1000215216
+Boot sector
+Bad
+
+Backup boot record
+Bad
+
+Sectors are not identical.
+
+exFAT_boot_sector
+   P exFAT                    0   0  1 488386  21 16 1000215216
+Boot sector
+Bad
+
+Backup boot record
+Bad
+
+Sectors are not identical.
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Change partition type:
+   P ext4                     0   0  1 488386  21 16 1000215216
+search_superblock
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Change partition type:
+   P FAT32                    0   0  1 488386  21 16 1000215216
+
+fat32_boot_sector
+   P FAT32                    0   0  1 488386  21 16 1000215216
+Boot sector
+Bad
+
+Backup boot sector
+Bad
+
+First sectors (boot code and partition information) are not identical.
+Second sectors (cluster information) are not identical.
+Third sectors (second part of boot code) are not identical.
+
+A valid FAT Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Change partition type:
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Change partition type:
+   P ext4                     0   0  1 488386  21 16 1000215216
+search_superblock
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Change partition type:
+   P FAT32                    0   0  1 488386  21 16 1000215216
+
+fat32_boot_sector
+   P FAT32                    0   0  1 488386  21 16 1000215216
+Boot sector
+Bad
+
+Backup boot sector
+Bad
+
+First sectors (boot code and partition information) are not identical.
+Second sectors (cluster information) are not identical.
+Third sectors (second part of boot code) are not identical.
+
+A valid FAT Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+
+   P FAT32                    0   0  1 488386  21 16 1000215216
+rebuild_FAT_BS p_fat12 0, p_fat16 0, p_fat32 1
+fat_find_type(max_offset=7814245, p_fat12=0, p_fat16=0, p_fat32=1, debug=1, dump_ind=0)
+FAT32 at 2080(1/1/1), nbr=14
+FAT32 at 3104(1/33/1), nbr=14
+FAT32 at 42483(20/47/20), nbr=1
+FAT32 at 42484(20/47/21), nbr=1
+FAT32 at 42485(20/47/22), nbr=1
+FAT32 at 42486(20/47/23), nbr=1
+FAT32 at 42487(20/47/24), nbr=1
+FAT32 at 42488(20/47/25), nbr=1
+FAT32 at 42489(20/47/26), nbr=1
+FAT32 at 42490(20/47/27), nbr=1
+FAT32 at 42491(20/47/28), nbr=1
+FAT32 at 42492(20/47/29), nbr=1
+FAT32 at 1052104(513/46/9), nbr=1
+FAT32 at 1052105(513/46/10), nbr=1
+FAT32 at 1052112(513/46/17), nbr=1
+FAT32 at 1052114(513/46/19), nbr=1
+FAT32 at 1052115(513/46/20), nbr=1
+FAT32 at 1052118(513/46/23), nbr=1
+FAT32 at 1052119(513/46/24), nbr=1
+FAT32 at 1052120(513/46/25), nbr=1
+FAT32 at 1052121(513/46/26), nbr=1
+FAT32 at 1052122(513/46/27), nbr=1
+FAT32 at 1052123(513/46/28), nbr=1
+FAT32 at 1052124(513/46/29), nbr=1
+FAT32 at 1052125(513/46/30), nbr=1
+FAT32 at 1052126(513/46/31), nbr=1
+FAT32 at 1052128(513/47/1), nbr=1
+FAT32 at 1052136(513/47/9), nbr=1
+FAT32 at 1052137(513/47/10), nbr=1
+FAT32 at 1052144(513/47/17), nbr=1
+FAT32 at 1052150(513/47/23), nbr=1
+FAT32 at 1052160(513/48/1), nbr=1
+FAT32 at 1052163(513/48/4), nbr=1
+FAT32 at 1052164(513/48/5), nbr=1
+FAT32 at 1052165(513/48/6), nbr=1
+FAT32 at 1052166(513/48/7), nbr=1
+FAT32 at 1052167(513/48/8), nbr=1
+FAT32 at 1052168(513/48/9), nbr=1
+FAT32 at 1052169(513/48/10), nbr=1
+FAT32 at 1052170(513/48/11), nbr=1
+FAT32 at 1052171(513/48/12), nbr=1
+FAT32 at 1052196(513/49/5), nbr=1
+FAT32 at 1052197(513/49/6), nbr=1
+FAT32 at 1052198(513/49/7), nbr=1
+FAT32 at 1052199(513/49/8), nbr=1
+FAT32 at 1052202(513/49/11), nbr=1
+FAT32 at 1052203(513/49/12), nbr=1
+FAT32 at 1052204(513/49/13), nbr=1
+FAT32 at 1052205(513/49/14), nbr=1
+FAT32 at 1052206(513/49/15), nbr=1
+FAT32 at 1052207(513/49/16), nbr=1
+FAT32 at 1052210(513/49/19), nbr=1
+FAT32 at 1052211(513/49/20), nbr=1
+FAT32 at 1052212(513/49/21), nbr=1
+FAT32 at 1052213(513/49/22), nbr=1
+FAT32 at 1052214(513/49/23), nbr=1
+FAT32 at 1052215(513/49/24), nbr=1
+FAT32 at 1099280(536/48/17), nbr=2
+FAT32 at 1448530(707/18/19), nbr=1
+FAT32 at 1476186(720/50/27), nbr=1
+FAT32 at 1476266(720/53/11), nbr=1
+FAT32 at 1476356(720/56/5), nbr=1
+FAT32 at 1476383(720/56/32), nbr=1
+FAT32 at 1527133(745/42/30), nbr=1
+FAT32 at 978853(477/61/6), nbr=1
+FAT32 at 1528425(746/19/10), nbr=1
+FAT32 at 1528618(746/25/11), nbr=1
+FAT32 at 1528619(746/25/12), nbr=1
+FAT32 at 1528703(746/27/32), nbr=1
+FAT32 at 1528704(746/28/1), nbr=1
+FAT32 at 1528789(746/30/22), nbr=1
+FAT32 at 1528828(746/31/29), nbr=1
+FAT32 at 861164(420/31/13), nbr=1
+FAT32 at 1529209(746/43/26), nbr=1
+FAT32 at 1531444(747/49/21), nbr=1
+FAT32 at 1531507(747/51/20), nbr=1
+FAT32 at 573608(280/5/9), nbr=1
+FAT32 at 1532160(748/8/1), nbr=1
+FAT32 at 851443(415/47/20), nbr=1
+FAT32 at 1532182(748/8/23), nbr=1
+FAT32 at 1532183(748/8/24), nbr=1
+FAT32 at 700778(342/11/11), nbr=1
+FAT32 at 1532349(748/13/30), nbr=1
+FAT32 at 1532350(748/13/31), nbr=1
+FAT32 at 1532387(748/15/4), nbr=1
+FAT32 at 1532388(748/15/5), nbr=1
+FAT32 at 1532450(748/17/3), nbr=1
+FAT32 at 1532451(748/17/4), nbr=1
+FAT32 at 1532633(748/22/26), nbr=1
+FAT32 at 1532634(748/22/27), nbr=1
+FAT32 at 1532718(748/25/15), nbr=1
+FAT32 at 1532719(748/25/16), nbr=1
+FAT32 at 1532804(748/28/5), nbr=1
+FAT32 at 1532842(748/29/11), nbr=1
+FAT32 at 1532843(748/29/12), nbr=1
+FAT32 at 1121481(547/38/10), nbr=1
+FAT32 at 1534657(749/22/2), nbr=1
+FAT32 at 1534720(749/24/1), nbr=1
+FAT32 at 1534723(749/24/4), nbr=1
+FAT32 at 1535639(749/52/24), nbr=1
+FAT32 at 999532(488/3/13), nbr=1
+FAT32 at 1535862(749/59/23), nbr=1
+FAT32 at 1503052(733/58/13), nbr=1
+FAT32 at 1535938(749/62/3), nbr=1
+FAT32 at 1538895(751/26/16), nbr=1
+FAT32 at 1539542(751/46/23), nbr=1
+FAT32 at 884198(431/47/7), nbr=1
+FAT32 at 1539645(751/49/30), nbr=1
+FAT32 at 1539646(751/49/31), nbr=1
+FAT32 at 1539726(751/52/15), nbr=1
+FAT32 at 1474273(719/55/2), nbr=1
+FAT32 at 1539762(751/53/19), nbr=1
+FAT32 at 1539763(751/53/20), nbr=1
+FAT32 at 1539834(751/55/27), nbr=1
+FAT32 at 1540040(751/62/9), nbr=1
+FAT32 at 1541091(752/31/4), nbr=1
+FAT32 at 1541092(752/31/5), nbr=1
+FAT32 at 1541144(752/32/25), nbr=1
+FAT32 at 1541226(752/35/11), nbr=1
+FAT32 at 1541227(752/35/12), nbr=1
+FAT32 at 1530035(747/5/20), nbr=1
+FAT32 at 1541350(752/39/7), nbr=1
+FAT32 at 65072(31/49/17), nbr=1
+FAT32 at 1541631(752/47/32), nbr=1
+FAT32 at 1542019(752/60/4), nbr=1
+FAT32 at 1542748(753/18/29), nbr=1
+FAT32 at 1542761(753/19/10), nbr=1
+FAT32 at 1542762(753/19/11), nbr=1
+FAT32 at 1542773(753/19/22), nbr=1
+FAT32 at 1009698(493/1/3), nbr=1
+FAT32 at 1542795(753/20/12), nbr=1
+FAT32 at 1542796(753/20/13), nbr=1
+FAT32 at 1542818(753/21/3), nbr=1
+FAT32 at 1542819(753/21/4), nbr=1
+FAT32 at 1542896(753/23/17), nbr=1
+FAT32 at 1408754(687/55/19), nbr=1
+FAT32 at 1542975(753/25/32), nbr=1
+FAT32 at 1542976(753/26/1), nbr=1
+FAT32 at 1543054(753/28/15), nbr=1
+FAT32 at 1542895(753/23/16), nbr=1
+FAT32 at 1543133(753/30/30), nbr=1
+FAT32 at 1149519(561/18/16), nbr=1
+FAT32 at 1543169(753/32/2), nbr=1
+FAT32 at 1543203(753/33/4), nbr=1
+FAT32 at 1543204(753/33/5), nbr=1
+FAT32 at 1219858(595/40/19), nbr=1
+FAT32 at 1544442(754/7/27), nbr=1
+FAT32 at 1544443(754/7/28), nbr=1
+FAT32 at 1544635(754/13/28), nbr=1
+FAT32 at 1544730(754/16/27), nbr=1
+FAT32 at 1478938(722/8/27), nbr=1
+FAT32 at 1544826(754/19/27), nbr=1
+FAT32 at 1544866(754/21/3), nbr=1
+FAT32 at 1545274(754/33/27), nbr=1
+FAT32 at 1547385(755/35/26), nbr=1
+FAT32 at 1506382(735/34/15), nbr=1
+FAT32 at 1547459(755/38/4), nbr=1
+FAT32 at 1547460(755/38/5), nbr=1
+FAT32 at 1548738(756/14/3), nbr=1
+FAT32 at 1549124(756/26/5), nbr=1
+FAT32 at 1549125(756/26/6), nbr=1
+FAT32 at 1475325(720/23/30), nbr=1
+FAT32 at 1549191(756/28/8), nbr=1
+FAT32 at 1549258(756/30/11), nbr=1
+FAT32 at 1549259(756/30/12), nbr=1
+FAT32 at 1549261(756/30/14), nbr=1
+FAT32 at 1550769(757/13/18), nbr=1
+FAT32 at 1550770(757/13/19), nbr=1
+FAT32 at 1550772(757/13/21), nbr=1
+FAT32 at 1550835(757/15/20), nbr=1
+FAT32 at 1550901(757/17/22), nbr=1
+FAT32 at 638415(311/46/16), nbr=1
+FAT32 at 1550969(757/19/26), nbr=1
+FAT32 at 1552364(757/63/13), nbr=1
+FAT32 at 1552429(758/1/14), nbr=1
+FAT32 at 1552432(758/1/17), nbr=1
+FAT32 at 1552495(758/3/16), nbr=1
+FAT32 at 1552496(758/3/17), nbr=1
+FAT32 at 1552498(758/3/19), nbr=1
+FAT32 at 1553684(758/40/21), nbr=1
+FAT32 at 1553758(758/42/31), nbr=1
+FAT32 at 1553761(758/43/2), nbr=1
+FAT32 at 1554623(759/5/32), nbr=1
+FAT32 at 1554626(759/6/3), nbr=1
+FAT32 at 1554697(759/8/10), nbr=1
+FAT32 at 1555439(759/31/16), nbr=1
+FAT32 at 476431(232/40/16), nbr=1
+FAT32 at 1555726(759/40/15), nbr=1
+FAT32 at 1556495(760/0/16), nbr=1
+FAT32 at 1556496(760/0/17), nbr=1
+FAT32 at 1556678(760/6/7), nbr=1
+FAT32 at 1556763(760/8/28), nbr=1
+FAT32 at 205033(100/7/10), nbr=1
+FAT32 at 1556849(760/11/18), nbr=1
+FAT32 at 1556850(760/11/19), nbr=1
+FAT32 at 1556887(760/12/24), nbr=1
+FAT32 at 1556888(760/12/25), nbr=1
+FAT32 at 1557287(760/25/8), nbr=1
+FAT32 at 201092(98/12/5), nbr=1
+FAT32 at 1558730(761/6/11), nbr=1
+FAT32 at 772350(377/7/31), nbr=1
+FAT32 at 1559244(761/22/13), nbr=1
+FAT32 at 1560146(761/50/19), nbr=1
+FAT32 at 1560147(761/50/20), nbr=1
+FAT32 at 1279568(624/50/17), nbr=1
+FAT32 at 1560209(761/52/18), nbr=1
+FAT32 at 1560212(761/52/21), nbr=1
+FAT32 at 1561072(762/15/17), nbr=1
+FAT32 at 512381(250/11/30), nbr=1
+FAT32 at 1561651(762/33/20), nbr=1
+FAT32 at 1561652(762/33/21), nbr=1
+FAT32 at 466579(227/52/20), nbr=1
+FAT32 at 1561841(762/39/18), nbr=1
+FAT32 at 300212(146/37/21), nbr=1
+FAT32 at 1561881(762/40/26), nbr=1
+FAT32 at 1561882(762/40/27), nbr=1
+FAT32 at 1561956(762/43/5), nbr=1
+FAT32 at 1562949(763/10/6), nbr=1
+FAT32 at 1563016(763/12/9), nbr=1
+FAT32 at 1563187(763/17/20), nbr=1
+FAT32 at 1563190(763/17/23), nbr=1
+FAT32 at 1563386(763/23/27), nbr=1
+FAT32 at 1101986(538/5/3), nbr=1
+FAT32 at 1564680(764/0/9), nbr=1
+FAT32 at 1544889(754/21/26), nbr=1
+FAT32 at 1564758(764/2/23), nbr=1
+FAT32 at 1565011(764/10/20), nbr=1
+FAT32 at 1382472(675/2/9), nbr=1
+FAT32 at 1533538(748/51/3), nbr=1
+FAT32 at 255558(124/50/7), nbr=1
+FAT32 at 1566382(764/53/15), nbr=1
+FAT32 at 117350(57/19/7), nbr=1
+FAT32 at 1567825(765/34/18), nbr=1
+FAT32 at 1539630(751/49/15), nbr=1
+FAT32 at 154747(75/35/28), nbr=1
+FAT32 at 1567893(765/36/22), nbr=1
+FAT32 at 1569496(766/22/25), nbr=1
+FAT32 at 1569497(766/22/26), nbr=1
+FAT32 at 1569874(766/34/19), nbr=1
+FAT32 at 1078344(526/34/9), nbr=1
+FAT32 at 1569969(766/37/18), nbr=1
+FAT32 at 1537858(750/58/3), nbr=1
+FAT32 at 1570065(766/40/18), nbr=1
+FAT32 at 1570106(766/41/27), nbr=1
+FAT32 at 1176916(574/42/21), nbr=1
+FAT32 at 1570218(766/45/11), nbr=1
+FAT32 at 847336(413/47/9), nbr=1
+FAT32 at 391606(191/13/23), nbr=1
+FAT32 at 761486(371/52/15), nbr=1
+FAT32 at 1572412(767/49/29), nbr=1
+FAT32 at 122282(59/45/11), nbr=1
+FAT32 at 1219397(595/26/6), nbr=1
+FAT32 at 1595210(778/58/11), nbr=1
+FAT32 at 1595549(779/4/30), nbr=1
+FAT32 at 1596761(779/42/26), nbr=1
+FAT32 at 1597964(780/16/13), nbr=1
+FAT32 at 1598370(780/29/3), nbr=1
+FAT32 at 1598725(780/40/6), nbr=1
+FAT32 at 1599311(780/58/16), nbr=1
+FAT32 at 1599317(780/58/22), nbr=1
+FAT32 at 1599368(780/60/9), nbr=1
+FAT32 at 1601572(782/1/5), nbr=1
+FAT32 at 160613(78/27/6), nbr=1
+FAT32 at 1602789(782/39/6), nbr=1
+FAT32 at 1603918(783/10/15), nbr=1
+FAT32 at 1603920(783/10/17), nbr=1
+FAT32 at 1317887(643/31/32), nbr=1
+FAT32 at 1604207(783/19/16), nbr=1
+FAT32 at 216710(105/52/7), nbr=1
+FAT32 at 1604533(783/29/22), nbr=1
+FAT32 at 1604614(783/32/7), nbr=1
+FAT32 at 511749(249/56/6), nbr=1
+FAT32 at 1605424(783/57/17), nbr=1
+FAT32 at 1605992(784/11/9), nbr=1
+FAT32 at 1606825(784/37/10), nbr=1
+FAT32 at 1607025(784/43/18), nbr=1
+FAT32 at 1453773(709/54/14), nbr=1
+FAT32 at 1607379(784/54/20), nbr=1
+FAT32 at 1099902(537/3/31), nbr=1
+FAT32 at 1608035(785/11/4), nbr=1
+FAT32 at 905225(442/0/10), nbr=1
+FAT32 at 1609003(785/41/12), nbr=1
+FAT32 at 1609528(785/57/25), nbr=1
+FAT32 at 1610036(786/9/21), nbr=1
+FAT32 at 1610254(786/16/15), nbr=1
+FAT32 at 1610255(786/16/16), nbr=1
+FAT32 at 1612192(787/13/1), nbr=1
+FAT32 at 1612193(787/13/2), nbr=1
+FAT32 at 1612194(787/13/3), nbr=1
+FAT32 at 1612195(787/13/4), nbr=1
+FAT32 at 1612196(787/13/5), nbr=1
+FAT32 at 1612197(787/13/6), nbr=1
+FAT32 at 1612198(787/13/7), nbr=1
+FAT32 at 1612199(787/13/8), nbr=1
+FAT32 at 1612237(787/14/14), nbr=1
+FAT32 at 1612238(787/14/15), nbr=1
+FAT32 at 1612246(787/14/23), nbr=1
+FAT32 at 1612376(787/18/25), nbr=1
+FAT32 at 1612399(787/19/16), nbr=1
+FAT32 at 1612418(787/20/3), nbr=1
+FAT32 at 1612512(787/23/1), nbr=1
+FAT32 at 1612513(787/23/2), nbr=1
+FAT32 at 1612563(787/24/20), nbr=1
+FAT32 at 947988(462/56/21), nbr=1
+FAT32 at 1612708(787/29/5), nbr=1
+FAT32 at 1612720(787/29/17), nbr=1
+FAT32 at 1612721(787/29/18), nbr=1
+FAT32 at 1612722(787/29/19), nbr=1
+FAT32 at 1612723(787/29/20), nbr=1
+FAT32 at 1612724(787/29/21), nbr=1
+FAT32 at 1612725(787/29/22), nbr=1
+FAT32 at 1612726(787/29/23), nbr=1
+FAT32 at 1612727(787/29/24), nbr=1
+FAT32 at 1612766(787/30/31), nbr=1
+FAT32 at 1612904(787/35/9), nbr=1
+FAT32 at 1612927(787/35/32), nbr=1
+FAT32 at 302189(147/35/14), nbr=1
+FAT32 at 1612947(787/36/20), nbr=1
+FAT32 at 1613041(787/39/18), nbr=1
+FAT32 at 1613092(787/41/5), nbr=1
+FAT32 at 1613236(787/45/21), nbr=1
+FAT32 at 1613248(787/46/1), nbr=1
+FAT32 at 1613249(787/46/2), nbr=1
+FAT32 at 1613250(787/46/3), nbr=1
+FAT32 at 1613251(787/46/4), nbr=1
+FAT32 at 1613252(787/46/5), nbr=1
+FAT32 at 1613253(787/46/6), nbr=1
+FAT32 at 1613254(787/46/7), nbr=1
+FAT32 at 1613255(787/46/8), nbr=1
+FAT32 at 1613293(787/47/14), nbr=1
+FAT32 at 1613294(787/47/15), nbr=1
+FAT32 at 1612753(787/30/18), nbr=1
+FAT32 at 1613432(787/51/25), nbr=1
+FAT32 at 1613454(787/52/15), nbr=1
+FAT32 at 1613473(787/53/2), nbr=1
+FAT32 at 1613474(787/53/3), nbr=1
+FAT32 at 1613565(787/55/30), nbr=1
+FAT32 at 1613640(787/58/9), nbr=1
+FAT32 at 1613641(787/58/10), nbr=1
+FAT32 at 1613783(787/62/24), nbr=1
+FAT32 at 412625(201/30/18), nbr=1
+FAT32 at 1613797(787/63/6), nbr=1
+FAT32 at 1613798(787/63/7), nbr=1
+FAT32 at 1613799(787/63/8), nbr=1
+FAT32 at 1613800(787/63/9), nbr=1
+FAT32 at 1613801(787/63/10), nbr=1
+FAT32 at 1613802(787/63/11), nbr=1
+FAT32 at 1613803(787/63/12), nbr=1
+FAT32 at 1613804(787/63/13), nbr=1
+FAT32 at 1613842(788/0/19), nbr=1
+FAT32 at 1614003(788/5/20), nbr=1
+FAT32 at 1614004(788/5/21), nbr=1
+FAT32 at 1614023(788/6/8), nbr=1
+FAT32 at 1089979(532/13/28), nbr=1
+FAT32 at 1614329(788/15/26), nbr=1
+FAT32 at 1614330(788/15/27), nbr=1
+FAT32 at 1614331(788/15/28), nbr=1
+FAT32 at 1614332(788/15/29), nbr=1
+FAT32 at 1614333(788/15/30), nbr=1
+FAT32 at 1614334(788/15/31), nbr=1
+FAT32 at 1614335(788/15/32), nbr=1
+FAT32 at 1614336(788/16/1), nbr=1
+FAT32 at 1614374(788/17/7), nbr=1
+FAT32 at 1614512(788/21/17), nbr=1
+FAT32 at 1614513(788/21/18), nbr=1
+FAT32 at 1614535(788/22/8), nbr=1
+FAT32 at 1614555(788/22/28), nbr=1
+FAT32 at 1614649(788/25/26), nbr=1
+FAT32 at 1614700(788/27/13), nbr=1
+FAT32 at 1090506(532/30/11), nbr=1
+FAT32 at 1614856(788/32/9), nbr=1
+FAT32 at 1614857(788/32/10), nbr=1
+FAT32 at 1614858(788/32/11), nbr=1
+FAT32 at 1614859(788/32/12), nbr=1
+FAT32 at 1614860(788/32/13), nbr=1
+FAT32 at 1614861(788/32/14), nbr=1
+FAT32 at 1614862(788/32/15), nbr=1
+FAT32 at 1614863(788/32/16), nbr=1
+FAT32 at 1614902(788/33/23), nbr=1
+FAT32 at 1615040(788/38/1), nbr=1
+FAT32 at 1615063(788/38/24), nbr=1
+FAT32 at 1221848(596/38/25), nbr=1
+FAT32 at 1615177(788/42/10), nbr=1
+FAT32 at 287807(140/33/32), nbr=1
+FAT32 at 1615228(788/43/29), nbr=1
+FAT32 at 992127(484/27/32), nbr=1
+FAT32 at 1615285(788/45/22), nbr=1
+FAT32 at 1615372(788/48/13), nbr=1
+FAT32 at 1615373(788/48/14), nbr=1
+FAT32 at 1615386(788/48/27), nbr=1
+FAT32 at 1615387(788/48/28), nbr=1
+FAT32 at 1615388(788/48/29), nbr=1
+FAT32 at 1615389(788/48/30), nbr=1
+FAT32 at 1615390(788/48/31), nbr=1
+FAT32 at 1615391(788/48/32), nbr=1
+FAT32 at 1615392(788/49/1), nbr=1
+FAT32 at 1615393(788/49/2), nbr=1
+FAT32 at 1615431(788/50/8), nbr=1
+FAT32 at 1615569(788/54/18), nbr=1
+FAT32 at 1615591(788/55/8), nbr=1
+FAT32 at 1443178(704/43/11), nbr=1
+FAT32 at 1615705(788/58/26), nbr=1
+FAT32 at 1615756(788/60/13), nbr=1
+FAT32 at 1615905(789/1/2), nbr=1
+FAT32 at 1615906(789/1/3), nbr=1
+FAT32 at 1615919(789/1/16), nbr=1
+FAT32 at 1615920(789/1/17), nbr=1
+FAT32 at 1615921(789/1/18), nbr=1
+FAT32 at 1615922(789/1/19), nbr=1
+FAT32 at 1615923(789/1/20), nbr=1
+FAT32 at 1615924(789/1/21), nbr=1
+FAT32 at 1615925(789/1/22), nbr=1
+FAT32 at 1615926(789/1/23), nbr=1
+FAT32 at 1615964(789/2/29), nbr=1
+FAT32 at 1616102(789/7/7), nbr=1
+FAT32 at 1616125(789/7/30), nbr=1
+FAT32 at 1616126(789/7/31), nbr=1
+FAT32 at 1616238(789/11/15), nbr=1
+FAT32 at 1616239(789/11/16), nbr=1
+FAT32 at 43408(21/12/17), nbr=1
+FAT32 at 1616466(789/18/19), nbr=1
+FAT32 at 1616478(789/18/31), nbr=1
+FAT32 at 1616479(789/18/32), nbr=1
+FAT32 at 1616480(789/19/1), nbr=1
+FAT32 at 1616481(789/19/2), nbr=1
+FAT32 at 1616482(789/19/3), nbr=1
+FAT32 at 1616483(789/19/4), nbr=1
+FAT32 at 1616484(789/19/5), nbr=1
+FAT32 at 1616485(789/19/6), nbr=1
+FAT32 at 1616523(789/20/12), nbr=1
+FAT32 at 1616524(789/20/13), nbr=1
+FAT32 at 1616532(789/20/21), nbr=1
+FAT32 at 1616662(789/24/23), nbr=1
+FAT32 at 1616663(789/24/24), nbr=1
+FAT32 at 1616685(789/25/14), nbr=1
+FAT32 at 453536(221/29/1), nbr=1
+FAT32 at 1617007(789/35/16), nbr=1
+FAT32 at 1617008(789/35/17), nbr=1
+FAT32 at 1617009(789/35/18), nbr=1
+FAT32 at 1617010(789/35/19), nbr=1
+FAT32 at 1617011(789/35/20), nbr=1
+FAT32 at 1617012(789/35/21), nbr=1
+FAT32 at 1617013(789/35/22), nbr=1
+FAT32 at 1617014(789/35/23), nbr=1
+FAT32 at 1617052(789/36/29), nbr=1
+FAT32 at 1617053(789/36/30), nbr=1
+FAT32 at 1617061(789/37/6), nbr=1
+FAT32 at 1617191(789/41/8), nbr=1
+FAT32 at 1617214(789/41/31), nbr=1
+FAT32 at 1617233(789/42/18), nbr=1
+FAT32 at 1617223(789/42/8), nbr=1
+FAT32 at 1617327(789/45/16), nbr=1
+FAT32 at 1611808(787/1/1), nbr=1
+FAT32 at 1617378(789/47/3), nbr=1
+FAT32 at 1592291(777/31/4), nbr=1
+FAT32 at 1617435(789/48/28), nbr=1
+FAT32 at 1617522(789/51/19), nbr=1
+FAT32 at 1617535(789/51/32), nbr=1
+FAT32 at 1617536(789/52/1), nbr=1
+FAT32 at 1617537(789/52/2), nbr=1
+FAT32 at 1617538(789/52/3), nbr=1
+FAT32 at 1617539(789/52/4), nbr=1
+FAT32 at 1617540(789/52/5), nbr=1
+FAT32 at 1617541(789/52/6), nbr=1
+FAT32 at 1617542(789/52/7), nbr=1
+FAT32 at 1617580(789/53/13), nbr=1
+FAT32 at 1617722(789/57/27), nbr=1
+FAT32 at 1617744(789/58/17), nbr=1
+FAT32 at 1617745(789/58/18), nbr=1
+FAT32 at 1617764(789/59/5), nbr=1
+FAT32 at 1617765(789/59/6), nbr=1
+FAT32 at 1617859(789/62/4), nbr=1
+FAT32 at 1619236(790/41/5), nbr=1
+FAT32 at 1619237(790/41/6), nbr=1
+FAT32 at 1619239(790/41/8), nbr=1
+FAT32 at 946399(462/6/32), nbr=1
+FAT32 at 282364(137/55/29), nbr=1
+FAT32 at 1621020(791/32/29), nbr=1
+FAT32 at 1621808(791/57/17), nbr=1
+FAT32 at 886961(433/5/18), nbr=1
+FAT32 at 1622433(792/13/2), nbr=1
+FAT32 at 1628891(795/22/28), nbr=1
+FAT32 at 1629089(795/29/2), nbr=1
+FAT32 at 1629954(795/56/3), nbr=1
+FAT32 at 1182855(577/36/8), nbr=1
+FAT32 at 1111487(542/45/32), nbr=1
+FAT32 at 1630206(795/63/31), nbr=1
+FAT32 at 1498736(731/51/17), nbr=1
+FAT32 at 1630580(796/11/21), nbr=1
+FAT32 at 1630831(796/19/16), nbr=1
+FAT32 at 1631052(796/26/13), nbr=1
+FAT32 at 511309(249/42/14), nbr=1
+FAT32 at 1038370(507/1/3), nbr=1
+FAT32 at 1636983(799/19/24), nbr=1
+FAT32 at 1202047(586/59/32), nbr=1
+FAT32 at 1646524(803/61/29), nbr=1
+FAT32 at 1232649(601/56/10), nbr=1
+FAT32 at 1678090(819/24/11), nbr=1
+FAT32 at 1692888(826/38/25), nbr=1
+FAT32 at 1703285(831/43/22), nbr=1
+FAT32 at 1704504(832/17/25), nbr=1
+FAT32 at 1719879(839/50/8), nbr=1
+FAT32 at 1240263(605/38/8), nbr=1
+FAT32 at 1734428(846/56/29), nbr=1
+FAT32 at 1736310(847/51/23), nbr=1
+FAT32 at 1736381(847/53/30), nbr=1
+FAT32 at 1165571(569/8/4), nbr=1
+FAT32 at 1762576(860/40/17), nbr=1
+FAT32 at 2099240(1025/1/9), nbr=1
+FAT32 at 2099242(1025/1/11), nbr=1
+FAT32 at 2099243(1025/1/12), nbr=1
+FAT32 at 2099246(1025/1/15), nbr=1
+FAT32 at 2099247(1025/1/16), nbr=1
+FAT32 at 2099288(1025/2/25), nbr=1
+FAT32 at 2099290(1025/2/27), nbr=1
+FAT32 at 2099291(1025/2/28), nbr=1
+FAT32 at 2099294(1025/2/31), nbr=1
+FAT32 at 2099295(1025/2/32), nbr=1
+FAT32 at 2099336(1025/4/9), nbr=1
+FAT32 at 2099338(1025/4/11), nbr=1
+FAT32 at 2099339(1025/4/12), nbr=1
+FAT32 at 2099342(1025/4/15), nbr=1
+FAT32 at 2099343(1025/4/16), nbr=1
+FAT32 at 2099408(1025/6/17), nbr=1
+FAT32 at 2099410(1025/6/19), nbr=1
+FAT32 at 2099411(1025/6/20), nbr=1
+FAT32 at 2099414(1025/6/23), nbr=1
+FAT32 at 2099415(1025/6/24), nbr=1
+FAT32 at 2099456(1025/8/1), nbr=1
+FAT32 at 2099458(1025/8/3), nbr=1
+FAT32 at 2099459(1025/8/4), nbr=1
+FAT32 at 2099462(1025/8/7), nbr=1
+FAT32 at 2099463(1025/8/8), nbr=1
+FAT32 at 2099504(1025/9/17), nbr=1
+FAT32 at 2099506(1025/9/19), nbr=1
+FAT32 at 2099507(1025/9/20), nbr=1
+FAT32 at 2099510(1025/9/23), nbr=1
+FAT32 at 2099511(1025/9/24), nbr=1
+FAT32 at 2099576(1025/11/25), nbr=1
+FAT32 at 2099578(1025/11/27), nbr=1
+FAT32 at 2099579(1025/11/28), nbr=1
+FAT32 at 2099582(1025/11/31), nbr=1
+FAT32 at 2099583(1025/11/32), nbr=1
+FAT32 at 2099624(1025/13/9), nbr=1
+FAT32 at 2099626(1025/13/11), nbr=1
+FAT32 at 2099627(1025/13/12), nbr=1
+FAT32 at 2099630(1025/13/15), nbr=1
+FAT32 at 2099631(1025/13/16), nbr=1
+FAT32 at 2099672(1025/14/25), nbr=1
+FAT32 at 2099674(1025/14/27), nbr=1
+FAT32 at 2099675(1025/14/28), nbr=1
+FAT32 at 2099678(1025/14/31), nbr=1
+FAT32 at 2099679(1025/14/32), nbr=1
+FAT32 at 2099744(1025/17/1), nbr=1
+FAT32 at 2099746(1025/17/3), nbr=1
+FAT32 at 2099747(1025/17/4), nbr=1
+FAT32 at 2099750(1025/17/7), nbr=1
+FAT32 at 2099751(1025/17/8), nbr=1
+FAT32 at 2099792(1025/18/17), nbr=1
+FAT32 at 2099794(1025/18/19), nbr=1
+FAT32 at 2099795(1025/18/20), nbr=1
+FAT32 at 2099798(1025/18/23), nbr=1
+FAT32 at 2099799(1025/18/24), nbr=1
+FAT32 at 2099840(1025/20/1), nbr=1
+FAT32 at 2099842(1025/20/3), nbr=1
+FAT32 at 2099843(1025/20/4), nbr=1
+FAT32 at 2099846(1025/20/7), nbr=1
+FAT32 at 2099847(1025/20/8), nbr=1
+FAT32 at 2099912(1025/22/9), nbr=1
+FAT32 at 2099914(1025/22/11), nbr=1
+FAT32 at 2099915(1025/22/12), nbr=1
+FAT32 at 2099918(1025/22/15), nbr=1
+FAT32 at 2099919(1025/22/16), nbr=1
+FAT32 at 2099960(1025/23/25), nbr=1
+FAT32 at 2099962(1025/23/27), nbr=1
+FAT32 at 2099963(1025/23/28), nbr=1
+FAT32 at 2099966(1025/23/31), nbr=1
+FAT32 at 2099967(1025/23/32), nbr=1
+FAT32 at 2100008(1025/25/9), nbr=1
+FAT32 at 2100010(1025/25/11), nbr=1
+FAT32 at 2100011(1025/25/12), nbr=1
+FAT32 at 2100014(1025/25/15), nbr=1
+FAT32 at 2100015(1025/25/16), nbr=1
+FAT32 at 2100080(1025/27/17), nbr=1
+FAT32 at 2100082(1025/27/19), nbr=1
+FAT32 at 2100083(1025/27/20), nbr=1
+FAT32 at 2100086(1025/27/23), nbr=1
+FAT32 at 2100087(1025/27/24), nbr=1
+FAT32 at 2100128(1025/29/1), nbr=1
+FAT32 at 2100130(1025/29/3), nbr=1
+FAT32 at 2100131(1025/29/4), nbr=1
+FAT32 at 2100134(1025/29/7), nbr=1
+FAT32 at 2100135(1025/29/8), nbr=1
+FAT32 at 2100176(1025/30/17), nbr=1
+FAT32 at 2100178(1025/30/19), nbr=1
+FAT32 at 2100179(1025/30/20), nbr=1
+FAT32 at 2100182(1025/30/23), nbr=1
+FAT32 at 2100183(1025/30/24), nbr=1
+FAT32 at 2100248(1025/32/25), nbr=1
+FAT32 at 2100250(1025/32/27), nbr=1
+FAT32 at 2100251(1025/32/28), nbr=1
+FAT32 at 2100253(1025/32/30), nbr=1
+FAT32 at 2100254(1025/32/31), nbr=1
+FAT32 at 2100255(1025/32/32), nbr=1
+FAT32 at 2100265(1025/33/10), nbr=1
+FAT32 at 2100266(1025/33/11), nbr=1
+FAT32 at 2100328(1025/35/9), nbr=1
+FAT32 at 2100329(1025/35/10), nbr=1
+FAT32 at 2100330(1025/35/11), nbr=1
+FAT32 at 2100331(1025/35/12), nbr=1
+FAT32 at 2100332(1025/35/13), nbr=1
+FAT32 at 2100333(1025/35/14), nbr=1
+FAT32 at 2100334(1025/35/15), nbr=1
+FAT32 at 2100344(1025/35/25), nbr=1
+FAT32 at 2100346(1025/35/27), nbr=1
+FAT32 at 2100347(1025/35/28), nbr=1
+FAT32 at 2100349(1025/35/30), nbr=1
+FAT32 at 2100350(1025/35/31), nbr=1
+FAT32 at 2100351(1025/35/32), nbr=1
+FAT32 at 2100426(1025/38/11), nbr=1
+FAT32 at 2100427(1025/38/12), nbr=1
+FAT32 at 2100428(1025/38/13), nbr=1
+FAT32 at 2100429(1025/38/14), nbr=1
+FAT32 at 2100430(1025/38/15), nbr=1
+FAT32 at 2100431(1025/38/16), nbr=1
+FAT32 at 2100464(1025/39/17), nbr=1
+FAT32 at 2100466(1025/39/19), nbr=1
+FAT32 at 2100467(1025/39/20), nbr=1
+FAT32 at 2100469(1025/39/22), nbr=1
+FAT32 at 2100470(1025/39/23), nbr=1
+FAT32 at 2100471(1025/39/24), nbr=1
+FAT32 at 2100576(1025/43/1), nbr=1
+FAT32 at 2100578(1025/43/3), nbr=1
+FAT32 at 2100579(1025/43/4), nbr=1
+FAT32 at 2100581(1025/43/6), nbr=1
+FAT32 at 2100582(1025/43/7), nbr=1
+FAT32 at 2100583(1025/43/8), nbr=1
+FAT32 at 2100618(1025/44/11), nbr=1
+FAT32 at 2100619(1025/44/12), nbr=1
+FAT32 at 2100620(1025/44/13), nbr=1
+FAT32 at 2100621(1025/44/14), nbr=1
+FAT32 at 2100622(1025/44/15), nbr=1
+FAT32 at 2100623(1025/44/16), nbr=1
+FAT32 at 2100680(1025/46/9), nbr=1
+FAT32 at 2100682(1025/46/11), nbr=1
+FAT32 at 2100683(1025/46/12), nbr=1
+FAT32 at 2100686(1025/46/15), nbr=1
+FAT32 at 2100687(1025/46/16), nbr=1
+FAT32 at 2100698(1025/46/27), nbr=1
+FAT32 at 2100699(1025/46/28), nbr=1
+FAT32 at 2100700(1025/46/29), nbr=1
+FAT32 at 2100701(1025/46/30), nbr=1
+FAT32 at 2100702(1025/46/31), nbr=1
+FAT32 at 2100703(1025/46/32), nbr=1
+FAT32 at 2100712(1025/47/9), nbr=1
+FAT32 at 2100715(1025/47/12), nbr=1
+FAT32 at 2100716(1025/47/13), nbr=1
+FAT32 at 2100717(1025/47/14), nbr=1
+FAT32 at 2100718(1025/47/15), nbr=1
+FAT32 at 2100719(1025/47/16), nbr=1
+FAT32 at 2100720(1025/47/17), nbr=1
+FAT32 at 2100726(1025/47/23), nbr=1
+FAT32 at 2100746(1025/48/11), nbr=1
+FAT32 at 2100747(1025/48/12), nbr=1
+FAT32 at 2100748(1025/48/13), nbr=1
+FAT32 at 2100749(1025/48/14), nbr=1
+FAT32 at 2100750(1025/48/15), nbr=1
+FAT32 at 2100751(1025/48/16), nbr=1
+FAT32 at 2100784(1025/49/17), nbr=1
+FAT32 at 2100786(1025/49/19), nbr=1
+FAT32 at 2100787(1025/49/20), nbr=1
+FAT32 at 2100790(1025/49/23), nbr=1
+FAT32 at 2100791(1025/49/24), nbr=1
+FAT32 at 2100872(1025/52/9), nbr=1
+FAT32 at 2100874(1025/52/11), nbr=1
+FAT32 at 2100875(1025/52/12), nbr=1
+FAT32 at 2100878(1025/52/15), nbr=1
+FAT32 at 2100879(1025/52/16), nbr=1
+FAT32 at 2100922(1025/53/27), nbr=1
+FAT32 at 2100923(1025/53/28), nbr=1
+FAT32 at 2100924(1025/53/29), nbr=1
+FAT32 at 2100925(1025/53/30), nbr=1
+FAT32 at 2100926(1025/53/31), nbr=1
+FAT32 at 2100927(1025/53/32), nbr=1
+FAT32 at 2100960(1025/55/1), nbr=1
+FAT32 at 2100962(1025/55/3), nbr=1
+FAT32 at 2100963(1025/55/4), nbr=1
+FAT32 at 2100966(1025/55/7), nbr=1
+FAT32 at 2100967(1025/55/8), nbr=1
+FAT32 at 2101008(1025/56/17), nbr=1
+FAT32 at 2101010(1025/56/19), nbr=1
+FAT32 at 2101011(1025/56/20), nbr=1
+FAT32 at 2101014(1025/56/23), nbr=1
+FAT32 at 2101015(1025/56/24), nbr=1
+FAT32 at 2101056(1025/58/1), nbr=1
+FAT32 at 2101058(1025/58/3), nbr=1
+FAT32 at 2101059(1025/58/4), nbr=1
+FAT32 at 2101062(1025/58/7), nbr=1
+FAT32 at 2101063(1025/58/8), nbr=1
+FAT32 at 2101104(1025/59/17), nbr=1
+FAT32 at 2101106(1025/59/19), nbr=1
+FAT32 at 2101109(1025/59/22), nbr=1
+FAT32 at 2101136(1025/60/17), nbr=1
+FAT32 at 2101138(1025/60/19), nbr=1
+FAT32 at 2101139(1025/60/20), nbr=1
+FAT32 at 2101140(1025/60/21), nbr=1
+FAT32 at 2101141(1025/60/22), nbr=1
+FAT32 at 2101142(1025/60/23), nbr=1
+FAT32 at 2101143(1025/60/24), nbr=1
+FAT32 at 2101168(1025/61/17), nbr=1
+FAT32 at 2101170(1025/61/19), nbr=1
+FAT32 at 2101173(1025/61/22), nbr=1
+FAT32 at 2101200(1025/62/17), nbr=1
+FAT32 at 2101202(1025/62/19), nbr=1
+FAT32 at 2101203(1025/62/20), nbr=1
+FAT32 at 2101204(1025/62/21), nbr=1
+FAT32 at 2101205(1025/62/22), nbr=1
+FAT32 at 2101206(1025/62/23), nbr=1
+FAT32 at 2101207(1025/62/24), nbr=1
+FAT32 at 2101232(1025/63/17), nbr=1
+FAT32 at 2101234(1025/63/19), nbr=1
+FAT32 at 2101237(1025/63/22), nbr=1
+FAT32 at 2101264(1026/0/17), nbr=1
+FAT32 at 2101266(1026/0/19), nbr=1
+FAT32 at 2101267(1026/0/20), nbr=1
+FAT32 at 2101268(1026/0/21), nbr=1
+FAT32 at 2101269(1026/0/22), nbr=1
+FAT32 at 2101270(1026/0/23), nbr=1
+FAT32 at 2101271(1026/0/24), nbr=1
+FAT32 at 2101296(1026/1/17), nbr=1
+FAT32 at 2101298(1026/1/19), nbr=1
+FAT32 at 2101301(1026/1/22), nbr=1
+FAT32 at 2101328(1026/2/17), nbr=1
+FAT32 at 2101330(1026/2/19), nbr=1
+FAT32 at 2101331(1026/2/20), nbr=1
+FAT32 at 2101332(1026/2/21), nbr=1
+FAT32 at 2101333(1026/2/22), nbr=1
+FAT32 at 2101334(1026/2/23), nbr=1
+FAT32 at 2101335(1026/2/24), nbr=1
+FAT32 at 2101360(1026/3/17), nbr=1
+FAT32 at 2101362(1026/3/19), nbr=1
+FAT32 at 2101365(1026/3/22), nbr=1
+FAT32 at 2101392(1026/4/17), nbr=1
+FAT32 at 2101394(1026/4/19), nbr=1
+FAT32 at 2101395(1026/4/20), nbr=1
+FAT32 at 2101396(1026/4/21), nbr=1
+FAT32 at 2101397(1026/4/22), nbr=1
+FAT32 at 2101398(1026/4/23), nbr=1
+FAT32 at 2101399(1026/4/24), nbr=1
+FAT32 at 2101424(1026/5/17), nbr=1
+FAT32 at 2101426(1026/5/19), nbr=1
+FAT32 at 2101429(1026/5/22), nbr=1
+FAT32 at 2101456(1026/6/17), nbr=1
+FAT32 at 2101458(1026/6/19), nbr=1
+FAT32 at 2101459(1026/6/20), nbr=1
+FAT32 at 2101460(1026/6/21), nbr=1
+FAT32 at 2101461(1026/6/22), nbr=1
+FAT32 at 2101462(1026/6/23), nbr=1
+FAT32 at 2101463(1026/6/24), nbr=1
+FAT32 at 2101488(1026/7/17), nbr=1
+FAT32 at 2101490(1026/7/19), nbr=1
+FAT32 at 2101493(1026/7/22), nbr=1
+FAT32 at 2101520(1026/8/17), nbr=1
+FAT32 at 2101522(1026/8/19), nbr=1
+FAT32 at 2101523(1026/8/20), nbr=1
+FAT32 at 2101524(1026/8/21), nbr=1
+FAT32 at 2101525(1026/8/22), nbr=1
+FAT32 at 2101526(1026/8/23), nbr=1
+FAT32 at 2101527(1026/8/24), nbr=1
+FAT32 at 2101552(1026/9/17), nbr=1
+FAT32 at 2101554(1026/9/19), nbr=1
+FAT32 at 2101557(1026/9/22), nbr=1
+FAT32 at 2101584(1026/10/17), nbr=1
+FAT32 at 2101586(1026/10/19), nbr=1
+FAT32 at 2101587(1026/10/20), nbr=1
+FAT32 at 2101588(1026/10/21), nbr=1
+FAT32 at 2101589(1026/10/22), nbr=1
+FAT32 at 2101590(1026/10/23), nbr=1
+FAT32 at 2101591(1026/10/24), nbr=1
+FAT32 at 2101616(1026/11/17), nbr=1
+FAT32 at 2101618(1026/11/19), nbr=1
+FAT32 at 2101621(1026/11/22), nbr=1
+FAT32 at 2101648(1026/12/17), nbr=1
+FAT32 at 2101650(1026/12/19), nbr=1
+FAT32 at 2101651(1026/12/20), nbr=1
+FAT32 at 2101652(1026/12/21), nbr=1
+FAT32 at 2101653(1026/12/22), nbr=1
+FAT32 at 2101654(1026/12/23), nbr=1
+FAT32 at 2101655(1026/12/24), nbr=1
+FAT32 at 2101680(1026/13/17), nbr=1
+FAT32 at 2101682(1026/13/19), nbr=1
+FAT32 at 2101685(1026/13/22), nbr=1
+FAT32 at 2101712(1026/14/17), nbr=1
+FAT32 at 2101714(1026/14/19), nbr=1
+FAT32 at 2101715(1026/14/20), nbr=1
+FAT32 at 2101716(1026/14/21), nbr=1
+FAT32 at 2101717(1026/14/22), nbr=1
+FAT32 at 2101718(1026/14/23), nbr=1
+FAT32 at 2101719(1026/14/24), nbr=1
+FAT32 at 2101752(1026/15/25), nbr=1
+FAT32 at 2101754(1026/15/27), nbr=1
+FAT32 at 2101757(1026/15/30), nbr=1
+FAT32 at 2101784(1026/16/25), nbr=1
+FAT32 at 2101786(1026/16/27), nbr=1
+FAT32 at 2101787(1026/16/28), nbr=1
+FAT32 at 2101788(1026/16/29), nbr=1
+FAT32 at 2101789(1026/16/30), nbr=1
+FAT32 at 2101790(1026/16/31), nbr=1
+FAT32 at 2101791(1026/16/32), nbr=1
+FAT32 at 2101816(1026/17/25), nbr=1
+FAT32 at 2101818(1026/17/27), nbr=1
+FAT32 at 2101821(1026/17/30), nbr=1
+FAT32 at 2101848(1026/18/25), nbr=1
+FAT32 at 2101850(1026/18/27), nbr=1
+FAT32 at 2101851(1026/18/28), nbr=1
+FAT32 at 2101852(1026/18/29), nbr=1
+FAT32 at 2101853(1026/18/30), nbr=1
+FAT32 at 2101854(1026/18/31), nbr=1
+FAT32 at 2101855(1026/18/32), nbr=1
+FAT32 at 2101880(1026/19/25), nbr=1
+FAT32 at 2101882(1026/19/27), nbr=1
+FAT32 at 2101885(1026/19/30), nbr=1
+FAT32 at 2101912(1026/20/25), nbr=1
+FAT32 at 2101914(1026/20/27), nbr=1
+FAT32 at 2101915(1026/20/28), nbr=1
+FAT32 at 2101916(1026/20/29), nbr=1
+FAT32 at 2101917(1026/20/30), nbr=1
+FAT32 at 2101918(1026/20/31), nbr=1
+FAT32 at 2101919(1026/20/32), nbr=1
+FAT32 at 2101944(1026/21/25), nbr=1
+FAT32 at 2101946(1026/21/27), nbr=1
+FAT32 at 2101949(1026/21/30), nbr=1
+FAT32 at 2101976(1026/22/25), nbr=1
+FAT32 at 2101978(1026/22/27), nbr=1
+FAT32 at 2101979(1026/22/28), nbr=1
+FAT32 at 2101980(1026/22/29), nbr=1
+FAT32 at 2101981(1026/22/30), nbr=1
+FAT32 at 2101982(1026/22/31), nbr=1
+FAT32 at 2101983(1026/22/32), nbr=1
+FAT32 at 2102008(1026/23/25), nbr=1
+FAT32 at 2102010(1026/23/27), nbr=1
+FAT32 at 2102013(1026/23/30), nbr=1
+FAT32 at 2102040(1026/24/25), nbr=1
+FAT32 at 2102042(1026/24/27), nbr=1
+FAT32 at 2102043(1026/24/28), nbr=1
+FAT32 at 2102044(1026/24/29), nbr=1
+FAT32 at 2102045(1026/24/30), nbr=1
+FAT32 at 2102046(1026/24/31), nbr=1
+FAT32 at 2102047(1026/24/32), nbr=1
+FAT32 at 2102072(1026/25/25), nbr=1
+FAT32 at 2102074(1026/25/27), nbr=1
+FAT32 at 2102077(1026/25/30), nbr=1
+FAT32 at 2102104(1026/26/25), nbr=1
+FAT32 at 2102106(1026/26/27), nbr=1
+FAT32 at 2102107(1026/26/28), nbr=1
+FAT32 at 2102108(1026/26/29), nbr=1
+FAT32 at 2102109(1026/26/30), nbr=1
+FAT32 at 2102110(1026/26/31), nbr=1
+FAT32 at 2102111(1026/26/32), nbr=1
+FAT32 at 2102136(1026/27/25), nbr=1
+FAT32 at 2102138(1026/27/27), nbr=1
+FAT32 at 2102141(1026/27/30), nbr=1
+FAT32 at 2102168(1026/28/25), nbr=1
+FAT32 at 2102170(1026/28/27), nbr=1
+FAT32 at 2102171(1026/28/28), nbr=1
+FAT32 at 2102172(1026/28/29), nbr=1
+FAT32 at 2102173(1026/28/30), nbr=1
+FAT32 at 2102174(1026/28/31), nbr=1
+FAT32 at 2102175(1026/28/32), nbr=1
+FAT32 at 2102200(1026/29/25), nbr=1
+FAT32 at 2102202(1026/29/27), nbr=1
+FAT32 at 2102205(1026/29/30), nbr=1
+FAT32 at 2102232(1026/30/25), nbr=1
+FAT32 at 2102234(1026/30/27), nbr=1
+FAT32 at 2102235(1026/30/28), nbr=1
+FAT32 at 2102236(1026/30/29), nbr=1
+FAT32 at 2102237(1026/30/30), nbr=1
+FAT32 at 2102238(1026/30/31), nbr=1
+FAT32 at 2102239(1026/30/32), nbr=1
+FAT32 at 2102264(1026/31/25), nbr=1
+FAT32 at 2102266(1026/31/27), nbr=1
+FAT32 at 2102269(1026/31/30), nbr=1
+FAT32 at 2102296(1026/32/25), nbr=1
+FAT32 at 2102298(1026/32/27), nbr=1
+FAT32 at 2102299(1026/32/28), nbr=1
+FAT32 at 2102300(1026/32/29), nbr=1
+FAT32 at 2102301(1026/32/30), nbr=1
+FAT32 at 2102302(1026/32/31), nbr=1
+FAT32 at 2102303(1026/32/32), nbr=1
+FAT32 at 2102328(1026/33/25), nbr=1
+FAT32 at 2102330(1026/33/27), nbr=1
+FAT32 at 2102333(1026/33/30), nbr=1
+FAT32 at 2102360(1026/34/25), nbr=1
+FAT32 at 2102362(1026/34/27), nbr=1
+FAT32 at 2102363(1026/34/28), nbr=1
+FAT32 at 2102364(1026/34/29), nbr=1
+FAT32 at 2102365(1026/34/30), nbr=1
+FAT32 at 2102366(1026/34/31), nbr=1
+FAT32 at 2102367(1026/34/32), nbr=1
+FAT32 at 2102392(1026/35/25), nbr=1
+FAT32 at 2102394(1026/35/27), nbr=1
+FAT32 at 2102397(1026/35/30), nbr=1
+FAT32 at 2102424(1026/36/25), nbr=1
+FAT32 at 2102426(1026/36/27), nbr=1
+FAT32 at 2102427(1026/36/28), nbr=1
+FAT32 at 2102428(1026/36/29), nbr=1
+FAT32 at 2102429(1026/36/30), nbr=1
+FAT32 at 2102430(1026/36/31), nbr=1
+FAT32 at 2102431(1026/36/32), nbr=1
+FAT32 at 2102456(1026/37/25), nbr=1
+FAT32 at 2102458(1026/37/27), nbr=1
+FAT32 at 2102461(1026/37/30), nbr=1
+FAT32 at 2102488(1026/38/25), nbr=1
+FAT32 at 2102490(1026/38/27), nbr=1
+FAT32 at 2102491(1026/38/28), nbr=1
+FAT32 at 2102492(1026/38/29), nbr=1
+FAT32 at 2102493(1026/38/30), nbr=1
+FAT32 at 2102494(1026/38/31), nbr=1
+FAT32 at 2102495(1026/38/32), nbr=1
+FAT32 at 2102520(1026/39/25), nbr=1
+FAT32 at 2102522(1026/39/27), nbr=1
+FAT32 at 2102525(1026/39/30), nbr=1
+FAT32 at 2102552(1026/40/25), nbr=1
+FAT32 at 2102554(1026/40/27), nbr=1
+FAT32 at 2102555(1026/40/28), nbr=1
+FAT32 at 2102556(1026/40/29), nbr=1
+FAT32 at 2102557(1026/40/30), nbr=1
+FAT32 at 2102558(1026/40/31), nbr=1
+FAT32 at 2102559(1026/40/32), nbr=1
+FAT32 at 2102584(1026/41/25), nbr=1
+FAT32 at 2102586(1026/41/27), nbr=1
+FAT32 at 2102589(1026/41/30), nbr=1
+FAT32 at 2102616(1026/42/25), nbr=1
+FAT32 at 2102618(1026/42/27), nbr=1
+FAT32 at 2102619(1026/42/28), nbr=1
+FAT32 at 2102620(1026/42/29), nbr=1
+FAT32 at 2102621(1026/42/30), nbr=1
+FAT32 at 2102622(1026/42/31), nbr=1
+FAT32 at 2102623(1026/42/32), nbr=1
+FAT32 at 2102648(1026/43/25), nbr=1
+FAT32 at 2102650(1026/43/27), nbr=1
+FAT32 at 2102653(1026/43/30), nbr=1
+FAT32 at 2102680(1026/44/25), nbr=1
+FAT32 at 2102682(1026/44/27), nbr=1
+FAT32 at 2102683(1026/44/28), nbr=1
+FAT32 at 2102684(1026/44/29), nbr=1
+FAT32 at 2102685(1026/44/30), nbr=1
+FAT32 at 2102686(1026/44/31), nbr=1
+FAT32 at 2102687(1026/44/32), nbr=1
+FAT32 at 2102712(1026/45/25), nbr=1
+FAT32 at 2102714(1026/45/27), nbr=1
+FAT32 at 2102717(1026/45/30), nbr=1
+FAT32 at 2102744(1026/46/25), nbr=1
+FAT32 at 2102746(1026/46/27), nbr=1
+FAT32 at 2102747(1026/46/28), nbr=1
+FAT32 at 2102748(1026/46/29), nbr=1
+FAT32 at 2102749(1026/46/30), nbr=1
+FAT32 at 2102750(1026/46/31), nbr=1
+FAT32 at 2102751(1026/46/32), nbr=1
+FAT32 at 2102784(1026/48/1), nbr=1
+FAT32 at 2102786(1026/48/3), nbr=1
+FAT32 at 2102789(1026/48/6), nbr=1
+FAT32 at 2102816(1026/49/1), nbr=1
+FAT32 at 2102818(1026/49/3), nbr=1
+FAT32 at 2102819(1026/49/4), nbr=1
+FAT32 at 2102820(1026/49/5), nbr=1
+FAT32 at 2102821(1026/49/6), nbr=1
+FAT32 at 2102822(1026/49/7), nbr=1
+FAT32 at 2102823(1026/49/8), nbr=1
+FAT32 at 2102848(1026/50/1), nbr=1
+FAT32 at 2102850(1026/50/3), nbr=1
+FAT32 at 2102853(1026/50/6), nbr=1
+FAT32 at 2102880(1026/51/1), nbr=1
+FAT32 at 2102882(1026/51/3), nbr=1
+FAT32 at 2102883(1026/51/4), nbr=1
+FAT32 at 2102884(1026/51/5), nbr=1
+FAT32 at 2102885(1026/51/6), nbr=1
+FAT32 at 2102886(1026/51/7), nbr=1
+FAT32 at 2102887(1026/51/8), nbr=1
+FAT32 at 2102912(1026/52/1), nbr=1
+FAT32 at 2102914(1026/52/3), nbr=1
+FAT32 at 2102917(1026/52/6), nbr=1
+FAT32 at 2102944(1026/53/1), nbr=1
+FAT32 at 2102946(1026/53/3), nbr=1
+FAT32 at 2102947(1026/53/4), nbr=1
+FAT32 at 2102948(1026/53/5), nbr=1
+FAT32 at 2102949(1026/53/6), nbr=1
+FAT32 at 2102950(1026/53/7), nbr=1
+FAT32 at 2102951(1026/53/8), nbr=1
+FAT32 at 2102976(1026/54/1), nbr=1
+FAT32 at 2102978(1026/54/3), nbr=1
+FAT32 at 2102981(1026/54/6), nbr=1
+FAT32 at 2103008(1026/55/1), nbr=1
+FAT32 at 2103010(1026/55/3), nbr=1
+FAT32 at 2103011(1026/55/4), nbr=1
+FAT32 at 2103012(1026/55/5), nbr=1
+FAT32 at 2103013(1026/55/6), nbr=1
+FAT32 at 2103014(1026/55/7), nbr=1
+FAT32 at 2103015(1026/55/8), nbr=1
+FAT32 at 2103040(1026/56/1), nbr=1
+FAT32 at 2103042(1026/56/3), nbr=1
+FAT32 at 2103045(1026/56/6), nbr=1
+FAT32 at 2103072(1026/57/1), nbr=1
+FAT32 at 2103074(1026/57/3), nbr=1
+FAT32 at 2103075(1026/57/4), nbr=1
+FAT32 at 2103076(1026/57/5), nbr=1
+FAT32 at 2103077(1026/57/6), nbr=1
+FAT32 at 2103078(1026/57/7), nbr=1
+FAT32 at 2103079(1026/57/8), nbr=1
+FAT32 at 2103104(1026/58/1), nbr=1
+FAT32 at 2103106(1026/58/3), nbr=1
+FAT32 at 2103109(1026/58/6), nbr=1
+FAT32 at 2103136(1026/59/1), nbr=1
+FAT32 at 2103138(1026/59/3), nbr=1
+FAT32 at 2103139(1026/59/4), nbr=1
+FAT32 at 2103140(1026/59/5), nbr=1
+FAT32 at 2103141(1026/59/6), nbr=1
+FAT32 at 2103142(1026/59/7), nbr=1
+FAT32 at 2103143(1026/59/8), nbr=1
+FAT32 at 2103168(1026/60/1), nbr=1
+FAT32 at 2103170(1026/60/3), nbr=1
+FAT32 at 2103173(1026/60/6), nbr=1
+FAT32 at 3252355(1588/4/4), nbr=1
+FAT32 at 3006603(1468/4/12), nbr=2
+first_fat 2080, second_fat 3104
+FAT : 32, reserved=2080, fat_length=1024
+sectors_per_cluster 8192
+Can't get cluster size
+
+fat32_boot_sector
+   P FAT32                    0   0  1 488386  21 16 1000215216
+Boot sector
+Bad
+
+Backup boot sector
+Bad
+
+First sectors (boot code and partition information) are not identical.
+Second sectors (cluster information) are not identical.
+Third sectors (second part of boot code) are not identical.
+
+A valid FAT Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+
+FAT: Can't list files, bad cluster size.
+Directory /
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Change partition type:
+   P ext4                     0   0  1 488386  21 16 1000215216
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Change partition type:
+   P ext4                     0   0  1 488386  21 16 1000215216
+Partition table type (auto): None
+Disk /dev/mapper/vgubuntu-root - 508 GB / 474 GiB
+Partition table type: None
+
+Interface Advanced
+
+recover_EXT2: s_block_group_nr=0/3792, s_mnt_count=24/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 124261376
+recover_EXT2: part_size 994091008
+Filesystem created: Mon Jan 30 12:56:18 2023
+Last mount time:    Sat Jun  3 01:32:53 2023
+   P ext4                           0  994091007  994091008
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 508 GB / 474 GiB
+
+
+dir_partition inode=2
+   P ext4                           0  994091007  994091008
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 508 GB / 474 GiB
+Directory /
+       2 drwxr-xr-x     0      0      4096 30-Jan-2023 14:04 .
+       2 drwxr-xr-x     0      0      4096 30-Jan-2023 14:04 ..
+      11 drwx------     0      0     16384 30-Jan-2023 12:56 lost+found
+ 5505025 drwxrwxr-x     0      0      4096 30-Jan-2023 12:56 boot
+ 3145729 drwxr-xr-x     0      0     12288  3-Jun-2023 01:32 etc
+ 25952257 drwxr-xr-x     0      0      4096 30-Jan-2023 13:03 media
+ 10747905 drwxr-xr-x     0      0      4096 30-Jan-2023 13:17 var
+      12 lrwxrwxrwx     0      0         7 30-Jan-2023 12:56 bin
+ 3670017 drwxr-xr-x     0      0      4096 31-Aug-2022 09:52 dev
+ 26083329 drwxr-xr-x     0      0      4096 30-Jan-2023 13:27 home
+      13 lrwxrwxrwx     0      0         7 30-Jan-2023 12:56 lib
+      14 lrwxrwxrwx     0      0         9 30-Jan-2023 12:56 lib32
+      15 lrwxrwxrwx     0      0         9 30-Jan-2023 12:56 lib64
+      16 lrwxrwxrwx     0      0        10 30-Jan-2023 12:56 libx32
+  262145 drwxr-xr-x     0      0      4096 31-Aug-2022 09:52 mnt
+ 15597569 drwxr-xr-x     0      0      4096 31-Mar-2023 21:41 opt
+ 16252929 drwxr-xr-x     0      0      4096 15-Apr-2020 14:09 proc
+ 13631489 drwx------     0      0      4096 26-May-2023 22:37 root
+ 24379393 drwxr-xr-x     0      0      4096 30-Jan-2023 12:58 run
+      17 lrwxrwxrwx     0      0         8 30-Jan-2023 12:56 sbin
+ 23855105 drwxr-xr-x     0      0      4096 22-May-2023 19:02 snap
+ 1572865 drwxr-xr-x     0      0      4096 31-Aug-2022 09:52 srv
+ 17825793 drwxr-xr-x     0      0      4096 15-Apr-2020 14:09 sys
+ 28049409 drwxrwxrwt     0      0   1011712  4-Jun-2023 00:02 tmp
+ 12320769 drwxr-xr-x     0      0      4096 31-Aug-2022 09:53 usr
+  524289 drwxrwxr-x     0      0      4096 30-Jan-2023 12:57 cdrom
+ 17563649 drw-------     0      0      4096  3-Jun-2023 01:32 Quarantine
+ 1703937 drwxr-xr-x     0      0      4096 30-Jan-2023 14:04 .config
+
+dir_partition inode=26083329
+   P ext4                           0  994091007  994091008
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 508 GB / 474 GiB
+Directory /home
+ 26083329 drwxr-xr-x     0      0      4096 30-Jan-2023 13:27 .
+       2 drwxr-xr-x     0      0      4096 30-Jan-2023 14:04 ..
+ 26083330 drwxr-xr-x  1000   1000      4096  3-Jun-2023 23:50 iminakov
+ 26083588 drwxr-xr-x  1001   1002      4096 30-Jan-2023 13:28 administrator
+
+dir_partition inode=26083330
+   P ext4                           0  994091007  994091008
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 508 GB / 474 GiB
+Directory /home/iminakov
+ 26083330 drwxr-xr-x  1000   1000      4096  3-Jun-2023 23:50 .
+ 26083329 drwxr-xr-x     0      0      4096 30-Jan-2023 13:27 ..
+ 26083331 -rw-r--r--  1000   1000       220 30-Jan-2023 12:58 .bash_logout
+ 26083332 -rw-r--r--  1000   1000       911 26-May-2023 23:27 .profile
+ 26083333 -rw-r--r--  1000   1000      4028 26-May-2023 23:27 .bashrc
+ 26083334 drwxr-xr-x  1000   1000      4096 21-Feb-2023 12:39 .local
+ 26083337 drwx------  1000   1000      4096  3-Jun-2023 23:58 .config
+ 26083344 drwxrwxr-x  1000   1000      4096  3-Jun-2023 23:50 .cache
+ 26083387 drwx------  1000   1000      4096  3-Jun-2023 17:59 .gnupg
+ 26083395 drwxr-xr-x  1000   1000      4096 26-May-2023 15:35 Desktop
+ 26083396 drwxr-xr-x  1000   1000     12288  3-Jun-2023 23:56 Downloads
+ 26083397 drwxr-xr-x  1000   1000      4096 30-Jan-2023 13:02 Templates
+ 26083398 drwxr-xr-x  1000   1000      4096 30-Jan-2023 13:02 Public
+ 26083399 drwxr-xr-x  1000   1000      4096 11-May-2023 11:20 Documents
+ 26083400 drwxr-xr-x  1000   1000      4096 30-Jan-2023 13:02 Music
+ 26083401 drwxr-xr-x  1000   1000      4096  3-Jun-2023 00:31 Pictures
+ 26083402 drwxr-xr-x  1000   1000      4096 30-Jan-2023 13:02 Videos
+ 26083594 drwx------  1000   1000      4096 23-Feb-2023 15:50 snap
+ 26083415 -rw-r--r--  1000   1000         0 30-Jan-2023 13:10 .sudo_as_admin_successful
+ 26083812 drwx------  1000   1000      4096 30-Jan-2023 13:13 .mozilla
+ 26085885 drwx------  1000   1000      4096 30-Jan-2023 13:24 .pki
+ 26083608 -rw-------  1000   1000     59426  3-Jun-2023 01:31 .bash_history
+ 27527188 drwxrwxr-x  1000   1000      4096  3-Jun-2023 11:37 Telegram
+ 27528228 drwx------  1000   1000      4096 24-Feb-2023 15:53 .ssh
+ 27530028 drwx------  1000   1000      4096 30-Jan-2023 14:24 .pulsesecure
+ 28188585 drwxrwxr-x  1000   1000      4096 26-May-2023 21:55 .avm
+ 27526659 drwxrwxr-x  1000   1000      4096 15-Feb-2023 13:44 git-repo
+ 27662023 drwxrwxr-x  1000   1000      4096 27-Feb-2023 16:13 .gradle
+ 26098075 -rw-------  1000   1000     13000 21-Feb-2023 14:13 .viminfo
+ 27666546 drwxrwxr-x  1000   1000      4096 25-Apr-2023 21:23 .expo
+ 26092248 -rw-rw-r--  1000   1000        84  3-Feb-2023 16:06 .gitconfig
+ 27662025 drwxrwxr-x  1000   1000      4096 15-Feb-2023 16:03 .dotnet
+ 5638436 drwxrwxr-x  1000   1000      4096 16-Feb-2023 10:43 esoTraceViewer
+ 5638453 drwxrwxr-x  1000   1000      4096 24-May-2023 15:04 .ccache
+ 27656641 drwxr-xr-x  1000   1000      4096 20-Feb-2023 16:52 Qt
+ 27533389 drwxrwxr-x  1000   1000      4096 28-Feb-2023 17:08 .repoconfig
+ 26088632 -rw-rw-r--  1000   1000       134  3-Feb-2023 16:06 .repo_.gitconfig.json
+ 26102402 -rw-rw-r--  1000   1000      5765 19-Apr-2023 18:48 java0.log
+ 27656950 drwxrwxr-x  1000   1000      4096  1-Feb-2023 15:31 .vscode
+ 27662068 drwxrwxr-x  1000   1000      4096 16-Feb-2023 17:46 esoTraceViewerComplete-4.3.5
+ 27534992 drwxrwxr-x  1000   1000      4096 20-Feb-2023 13:25 .nvm
+ 27535028 drwxrwxr-x  1000   1000      4096 14-Apr-2023 21:56 .npm
+ 27530138 drwxrwxr-x  1000   1000      4096  7-Feb-2023 11:39 .swt
+ 27659415 drwxrwxr-x  1000   1000      4096 12-Apr-2023 14:46 .here
+ 27660241 drwxrwxr-x  1000   1000      4096 10-Feb-2023 17:06 Postman
+ 26103873 -rw-rw-r--  1000   1000       728 27-Apr-2023 11:53  †€÷=V
+ 26089103 -rw-rw-r--  1000   1000       116 24-May-2023 17:27 .yarnrc
+ 27548534 drwxrwxr-x  1000   1000      4096 20-Feb-2023 14:11 .yarn
+ 26099912 -rw-rw-r--  1000   1000       242 28-May-2023 15:13 .wget-hsts
+ 30942064 drwxrwxr-x  1000   1000      4096 13-Apr-2023 15:57 tickets
+   12169 drwxrwxr-x  1000   1000      4096 24-Feb-2023 12:31 .java
+   12176 drwxrwxr-x  1000   1000      4096  4-May-2023 14:46 .android
+  140313 drwxrwxr-x  1000   1000      4096 24-Feb-2023 12:32 Android
+  144565 drwxrwxr-x  1000   1000      4096 24-Feb-2023 14:37 .m2
+ 26101844 -rw-------  1000   1000        16 24-Feb-2023 14:38 .emulator_console_auth_token
+ 27544800 drwxrwxr-x  1000   1000      4096  7-Apr-2023 11:53 projects
+ 26090623 -rw-rw-r--  1000   1000         0 10-May-2023 16:35 @¦•™ÛU
+ 27529967 drwx------  1000   1000      4096  9-Feb-2023 19:38 .thunderbird
+ 27540821 drwxrwxr-x  1000   1000      4096  9-Feb-2023 20:24 .gphoto
+ 27918536 drwxrwxr-x  1000   1000     20480 26-May-2023 17:46 node_modules
+ 26102149 -rw-rw-r--  1000   1000    921308 26-May-2023 17:46 package-lock.json
+ 26102164 -rw-rw-r--  1000   1000       255 26-May-2023 17:46 package.json
+ 1715733 drwxrwxr-x  1000   1000      4096 26-May-2023 23:29 .cargo
+ 1715737 drwxrwxr-x  1000   1000      4096 26-May-2023 23:27 .rustup
+ 1716005 drwxrwxr-x  1000   1000      4096 27-May-2023 00:00 .vscode-cli
+ 27673095 drwxrwxr-x  1000   1000      4096  4-Jun-2023 00:09 test-ledger
+ 28732686 drwxrwxr-x  1000   1000      4096  3-Jun-2023 23:50 iminakov-nout
+
+dir_partition inode=26083395
+   P ext4                           0  994091007  994091008
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 508 GB / 474 GiB
+Directory /home/iminakov/Desktop
+ 26083395 drwxr-xr-x  1000   1000      4096 26-May-2023 15:35 .
+ 26083330 drwxr-xr-x  1000   1000      4096  3-Jun-2023 23:50 ..
+ 26084255 drwxr-xr-x  1000   1000      4096 14-Feb-2023 15:41 bootcamp
+ 26084504 drwxr-xr-x  1000   1000      4096  7-Feb-2023 14:02 links&docs
+ 26092817 -rw-rw-r--  1000   1000   5111444 19-May-2023 20:58 build.txt
+ 26098037 -rw-rw-r--  1000   1000     17652 19-May-2023 16:44 diff
+ 26100825 -rw-rw-r--  1000   1000     49456 25-May-2023 12:39 app.log
+ 26100290 -rw-rw-r--  1000   1000      2001 26-May-2023 12:41 link_info.txt
+ 27660118 drwxrwxr-x  1000   1000      4096  7-Feb-2023 11:04 teamilliachat
+ 27529302 drwxrwxr-x  1000   1000      4096  1-Jun-2023 00:16 ola
+ 28188314 drwxrwxr-x  1000   1000      4096 25-Apr-2023 21:27 RF-app
+ 26104267 -rw-rw-r--  1000   1000      5055 25-Apr-2023 21:11 download.jpeg
+Directory /home/iminakov
+ 26083330 drwxr-xr-x  1000   1000      4096  3-Jun-2023 23:50 .
+ 26083329 drwxr-xr-x     0      0      4096 30-Jan-2023 13:27 ..
+ 26083331 -rw-r--r--  1000   1000       220 30-Jan-2023 12:58 .bash_logout
+ 26083332 -rw-r--r--  1000   1000       911 26-May-2023 23:27 .profile
+ 26083333 -rw-r--r--  1000   1000      4028 26-May-2023 23:27 .bashrc
+ 26083334 drwxr-xr-x  1000   1000      4096 21-Feb-2023 12:39 .local
+ 26083337 drwx------  1000   1000      4096  3-Jun-2023 23:58 .config
+ 26083344 drwxrwxr-x  1000   1000      4096  3-Jun-2023 23:50 .cache
+ 26083387 drwx------  1000   1000      4096  3-Jun-2023 17:59 .gnupg
+ 26083395 drwxr-xr-x  1000   1000      4096 26-May-2023 15:35 Desktop
+ 26083396 drwxr-xr-x  1000   1000     12288  3-Jun-2023 23:56 Downloads
+ 26083397 drwxr-xr-x  1000   1000      4096 30-Jan-2023 13:02 Templates
+ 26083398 drwxr-xr-x  1000   1000      4096 30-Jan-2023 13:02 Public
+ 26083399 drwxr-xr-x  1000   1000      4096 11-May-2023 11:20 Documents
+ 26083400 drwxr-xr-x  1000   1000      4096 30-Jan-2023 13:02 Music
+ 26083401 drwxr-xr-x  1000   1000      4096  3-Jun-2023 00:31 Pictures
+ 26083402 drwxr-xr-x  1000   1000      4096 30-Jan-2023 13:02 Videos
+ 26083594 drwx------  1000   1000      4096 23-Feb-2023 15:50 snap
+ 26083415 -rw-r--r--  1000   1000         0 30-Jan-2023 13:10 .sudo_as_admin_successful
+ 26083812 drwx------  1000   1000      4096 30-Jan-2023 13:13 .mozilla
+ 26085885 drwx------  1000   1000      4096 30-Jan-2023 13:24 .pki
+ 26083608 -rw-------  1000   1000     59426  3-Jun-2023 01:31 .bash_history
+ 27527188 drwxrwxr-x  1000   1000      4096  3-Jun-2023 11:37 Telegram
+ 27528228 drwx------  1000   1000      4096 24-Feb-2023 15:53 .ssh
+ 27530028 drwx------  1000   1000      4096 30-Jan-2023 14:24 .pulsesecure
+ 28188585 drwxrwxr-x  1000   1000      4096 26-May-2023 21:55 .avm
+ 27526659 drwxrwxr-x  1000   1000      4096 15-Feb-2023 13:44 git-repo
+ 27662023 drwxrwxr-x  1000   1000      4096 27-Feb-2023 16:13 .gradle
+ 26098075 -rw-------  1000   1000     13000 21-Feb-2023 14:13 .viminfo
+ 27666546 drwxrwxr-x  1000   1000      4096 25-Apr-2023 21:23 .expo
+ 26092248 -rw-rw-r--  1000   1000        84  3-Feb-2023 16:06 .gitconfig
+ 27662025 drwxrwxr-x  1000   1000      4096 15-Feb-2023 16:03 .dotnet
+ 5638436 drwxrwxr-x  1000   1000      4096 16-Feb-2023 10:43 esoTraceViewer
+ 5638453 drwxrwxr-x  1000   1000      4096 24-May-2023 15:04 .ccache
+ 27656641 drwxr-xr-x  1000   1000      4096 20-Feb-2023 16:52 Qt
+ 27533389 drwxrwxr-x  1000   1000      4096 28-Feb-2023 17:08 .repoconfig
+ 26088632 -rw-rw-r--  1000   1000       134  3-Feb-2023 16:06 .repo_.gitconfig.json
+ 26102402 -rw-rw-r--  1000   1000      5765 19-Apr-2023 18:48 java0.log
+ 27656950 drwxrwxr-x  1000   1000      4096  1-Feb-2023 15:31 .vscode
+ 27662068 drwxrwxr-x  1000   1000      4096 16-Feb-2023 17:46 esoTraceViewerComplete-4.3.5
+ 27534992 drwxrwxr-x  1000   1000      4096 20-Feb-2023 13:25 .nvm
+ 27535028 drwxrwxr-x  1000   1000      4096 14-Apr-2023 21:56 .npm
+ 27530138 drwxrwxr-x  1000   1000      4096  7-Feb-2023 11:39 .swt
+ 27659415 drwxrwxr-x  1000   1000      4096 12-Apr-2023 14:46 .here
+ 27660241 drwxrwxr-x  1000   1000      4096 10-Feb-2023 17:06 Postman
+ 26103873 -rw-rw-r--  1000   1000       728 27-Apr-2023 11:53  †€÷=V
+ 26089103 -rw-rw-r--  1000   1000       116 24-May-2023 17:27 .yarnrc
+ 27548534 drwxrwxr-x  1000   1000      4096 20-Feb-2023 14:11 .yarn
+ 26099912 -rw-rw-r--  1000   1000       242 28-May-2023 15:13 .wget-hsts
+ 30942064 drwxrwxr-x  1000   1000      4096 13-Apr-2023 15:57 tickets
+   12169 drwxrwxr-x  1000   1000      4096 24-Feb-2023 12:31 .java
+   12176 drwxrwxr-x  1000   1000      4096  4-May-2023 14:46 .android
+  140313 drwxrwxr-x  1000   1000      4096 24-Feb-2023 12:32 Android
+  144565 drwxrwxr-x  1000   1000      4096 24-Feb-2023 14:37 .m2
+ 26101844 -rw-------  1000   1000        16 24-Feb-2023 14:38 .emulator_console_auth_token
+ 27544800 drwxrwxr-x  1000   1000      4096  7-Apr-2023 11:53 projects
+ 26090623 -rw-rw-r--  1000   1000         0 10-May-2023 16:35 @¦•™ÛU
+ 27529967 drwx------  1000   1000      4096  9-Feb-2023 19:38 .thunderbird
+ 27540821 drwxrwxr-x  1000   1000      4096  9-Feb-2023 20:24 .gphoto
+ 27918536 drwxrwxr-x  1000   1000     20480 26-May-2023 17:46 node_modules
+ 26102149 -rw-rw-r--  1000   1000    921308 26-May-2023 17:46 package-lock.json
+ 26102164 -rw-rw-r--  1000   1000       255 26-May-2023 17:46 package.json
+ 1715733 drwxrwxr-x  1000   1000      4096 26-May-2023 23:29 .cargo
+ 1715737 drwxrwxr-x  1000   1000      4096 26-May-2023 23:27 .rustup
+ 1716005 drwxrwxr-x  1000   1000      4096 27-May-2023 00:00 .vscode-cli
+ 27673095 drwxrwxr-x  1000   1000      4096  4-Jun-2023 00:09 test-ledger
+ 28732686 drwxrwxr-x  1000   1000      4096  3-Jun-2023 23:50 iminakov-nout
+Directory /home
+ 26083329 drwxr-xr-x     0      0      4096 30-Jan-2023 13:27 .
+       2 drwxr-xr-x     0      0      4096 30-Jan-2023 14:04 ..
+ 26083330 drwxr-xr-x  1000   1000      4096  3-Jun-2023 23:50 iminakov
+ 26083588 drwxr-xr-x  1001   1002      4096 30-Jan-2023 13:28 administrator
+Directory /
+       2 drwxr-xr-x     0      0      4096 30-Jan-2023 14:04 .
+       2 drwxr-xr-x     0      0      4096 30-Jan-2023 14:04 ..
+      11 drwx------     0      0     16384 30-Jan-2023 12:56 lost+found
+ 5505025 drwxrwxr-x     0      0      4096 30-Jan-2023 12:56 boot
+ 3145729 drwxr-xr-x     0      0     12288  3-Jun-2023 01:32 etc
+ 25952257 drwxr-xr-x     0      0      4096 30-Jan-2023 13:03 media
+ 10747905 drwxr-xr-x     0      0      4096 30-Jan-2023 13:17 var
+      12 lrwxrwxrwx     0      0         7 30-Jan-2023 12:56 bin
+ 3670017 drwxr-xr-x     0      0      4096 31-Aug-2022 09:52 dev
+ 26083329 drwxr-xr-x     0      0      4096 30-Jan-2023 13:27 home
+      13 lrwxrwxrwx     0      0         7 30-Jan-2023 12:56 lib
+      14 lrwxrwxrwx     0      0         9 30-Jan-2023 12:56 lib32
+      15 lrwxrwxrwx     0      0         9 30-Jan-2023 12:56 lib64
+      16 lrwxrwxrwx     0      0        10 30-Jan-2023 12:56 libx32
+  262145 drwxr-xr-x     0      0      4096 31-Aug-2022 09:52 mnt
+ 15597569 drwxr-xr-x     0      0      4096 31-Mar-2023 21:41 opt
+ 16252929 drwxr-xr-x     0      0      4096 15-Apr-2020 14:09 proc
+ 13631489 drwx------     0      0      4096 26-May-2023 22:37 root
+ 24379393 drwxr-xr-x     0      0      4096 30-Jan-2023 12:58 run
+      17 lrwxrwxrwx     0      0         8 30-Jan-2023 12:56 sbin
+ 23855105 drwxr-xr-x     0      0      4096 22-May-2023 19:02 snap
+ 1572865 drwxr-xr-x     0      0      4096 31-Aug-2022 09:52 srv
+ 17825793 drwxr-xr-x     0      0      4096 15-Apr-2020 14:09 sys
+ 28049409 drwxrwxrwt     0      0   1011712  4-Jun-2023 00:09 tmp
+ 12320769 drwxr-xr-x     0      0      4096 31-Aug-2022 09:53 usr
+  524289 drwxrwxr-x     0      0      4096 30-Jan-2023 12:57 cdrom
+ 17563649 drw-------     0      0      4096  3-Jun-2023 01:32 Quarantine
+ 1703937 drwxr-xr-x     0      0      4096 30-Jan-2023 14:04 .config
+Partition table type (auto): None
+Disk /dev/mapper/nvme0n1p3_crypt - 510 GB / 474 GiB
+Partition table type: None
+
+Interface Advanced
+
+LVM2 magic value at 0/0/1
+part_size 996130816
+
+LVM2 magic value at 0/0/1
+   P Linux LVM2                     0  996130815  996130816
+     LVM2, 510 GB / 474 GiB
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=1000215215 (expected 1000215215)
+hdr_lba_start=34
+hdr_lba_end=1000215182
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P EFI System                  2048    1050623    1048576 [EFI System Partition]
+ 2 P Linux filesys. data      1050624    4050943    3000320
+ 3 P Linux filesys. data      4050944 1000214527  996163584
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Change partition type:
+   P FAT32                    0   0  1 488386  21 16 1000215216
+
+FAT: Can't list files, bad cluster size.
+Directory /
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Change partition type:
+   P FAT12                    0   0  1 488386  21 16 1000215216
+
+FAT: Can't list files, bad cluster size.
+Directory /
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Change partition type:
+   P FAT16                    0   0  1 488386  21 16 1000215216
+
+fat1x_boot_sector
+   P FAT16                    0   0  1 488386  21 16 1000215216
+Boot sector
+Bad
+
+A valid FAT Boot sector must be present in order to access
+any data; even if the partition is not bootable.
+
+FAT: Can't list files, bad cluster size.
+Directory /
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Change partition type:
+   P FAT32                    0   0  1 488386  21 16 1000215216
+
+FAT: Can't list files, bad cluster size.
+Directory /
+
+TestDisk exited normally.
